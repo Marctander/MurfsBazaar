@@ -14,17 +14,7 @@ namespace Eksamen
 
         static void Main(string[] args)
         {
-            /* Thread t1 = new Thread(MakeWare);
-             Thread t2 = new Thread(MakeWare);
-             Thread t3 = new Thread(MakeWare);
 
-             t1.Name = "Customer1";
-             t2.Name = "Customer2";
-             t3.Name = "Customer3";
-
-             t1.Start();
-             t2.Start();
-             t3.Start();*/
 
             Thread[] threads = new Thread[5];
 
